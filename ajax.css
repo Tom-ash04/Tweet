@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/** {border: 1px solid black;}*/
+main {
+    margin: 0 auto;
+    background: blue;
+    text-align: center;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.twet {
+    width: 200px;
+    margin: 0 auto;
+}
+i.fa-twitter {
+    font-size: 60px;
+    text-align: center;
+    color: lightblue;
+    margin-bottom: 40px;
+    transition: .5s ease;
+}
+i.fa-twitter:hover {
+    transform: scale(1.3);
+    color: #fff;
+}
+.trigger {
+    margin: 40px 0;
+    padding: 20px 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 25px;
+    background: #fff;
+    transition: .5s ease;
+    font-weight: bold;
+}
+.trigger:hover {
+    background: blue;
+    color: white;
+    border: 2px solid #fff;
+}
